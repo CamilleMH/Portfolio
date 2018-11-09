@@ -1,0 +1,519 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Fonts from Google Fonts - more at https://fonts.google.com */
+@import url('https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:400,600,700|Lato:300,400,700,900');
+
+body, html {
+    width:100%;
+    height:100%;
+    margin: 0; 
+    padding: 0;
+}
+
+body{
+    font-family:'Lato'; 
+    font-weight: 300; 
+    font-size : 16px;
+}
+
+#main {
+    scroll-behavior: smooth;
+    perspective: 1px;
+    transform-style: preserve-3d;
+    height: 100vh; 
+    overflow-x: hidden; 
+    overflow-y: scroll;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: Josefin Sans, sans-serif; 
+    text-transform: uppercase;
+}
+
+h3:hover {
+    color: #EF7E48; 
+    transition-duration: 1s; 
+    transition-timing-function:ease;
+}
+
+nav {
+    position: fixed; 
+    width: 100%; 
+    z-index: 100; 
+    top: 0px; 
+    background-color: rgba(255, 255, 255, 0.90);
+}
+
+nav ul {
+    display: flex; 
+    list-style-type: none; 
+    margin-left: 5%;
+}
+
+nav li {
+    margin-right: auto;
+}
+
+nav a {
+    font-family: Josefin Sans, sans-serif; 
+    font-size: 14px; 
+    font-weight: 700; 
+    text-transform: uppercase;
+    color: #0064AC; 
+    text-decoration: none;
+}
+
+nav a:hover {
+    color:#e5f2ff;
+}
+
+.topnav .icon {
+    display: none;
+}
+
+::selection {
+    color: #0064AC; 
+    background: rgba(255,243,233,0.80);
+}
+
+::-moz-selection {
+    color: #0064AC; 
+    background: rgba(255,243,233,0.80);
+}
+
+
+.parallaxlayer {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.background {
+    z-index: -1; 
+    width: 100%; 
+    height: auto; 
+    display: flex;
+    flex: 1 0 auto;
+    position: absolute;
+    height: 100vh;
+}
+
+.layer1 {transform: translateZ(-2px) scale(5);}
+.layer2 {transform: translateZ(-2px) scale(4);}
+.layer3 {transform: translateZ(-3px) scale(5);}
+.layer4 {transform: translateZ(-4px) scale(6);}
+
+.background #img1 {width: 500px; position: relative; top: -10%; left: -5%;}
+.background #img2 {width: 450px; position: relative; top: 100%; left: 0; }
+.background #img3 {width: 500px; position: relative; top: 50%; left: 30%; }
+.background #img4 {width: 900px; position: relative; left: 50%; top: 50px;}
+
+
+#accueil {
+    width: 100%; 
+    height:100%; 
+    overflow: hidden; 
+    color: #0064AC; 
+    padding-top: 200px;
+}
+
+#accueil h1 {
+    font-size: 40px; 
+    font-weight: 700;
+}
+
+#accueil h2 {
+    text-transform: none; 
+    font-size: 20px; 
+    font-weight: 400;
+}
+
+#about {
+    font-weight: 300; 
+    width: 45%; 
+    margin-left: 7%;
+}
+
+#about p {
+    padding-top: 10px;
+}
+
+#arrow {
+    width: 40px; 
+    margin-top: 12%; 
+    margin-left: 50%; 
+    cursor: pointer;
+}
+
+#resume {
+    padding-bottom: 10%; 
+    padding-top: 70px; 
+}
+
+#competences {
+    clear: both; 
+    padding-left : 20%; 
+    color: #0064AC;
+}
+
+#competences h2 {
+    padding-bottom: 10px; 
+    padding-top: 10px;
+}
+
+#competences h3 {
+    font-size: 16px;
+}
+
+#competences div {
+    display: inline-block; 
+    max-width: 250px; 
+    margin-right: 20px;
+}
+
+#competences .skill {
+    vertical-align: top; 
+    margin-bottom: 20px;
+}
+
+#competences .picto img {
+    width: 60%;
+    margin-right: 20%; 
+    margin-left: 20%; 
+    padding: 0; 
+    margin-top: 20px;
+}
+
+#resume a {
+    color:#0064AC; 
+    padding-left: 20%; 
+    font-weight: 600; 
+    font-size: 14px; 
+}
+
+#resume a img {
+    height: 10px; 
+    width: 12px;
+    margin-right: 3px;
+}
+
+#resume a:hover {text-decoration: none;}
+
+#real {
+    clear: both; 
+    padding-top: 100px; 
+    margin-left: auto; 
+    margin-right: auto; 
+    color: #0064AC;
+}
+
+.portfolio {
+    max-width: 100%; 
+    margin-left: auto; 
+    margin-right: auto; 
+    margin-top: 50px; 
+    margin-bottom: 5%; 
+    padding: auto; 
+}
+
+#real h2 {
+    text-align: center; 
+    padding-bottom: 50px;
+}
+
+#real h2 img {
+    width: 310px; 
+    padding-bottom: 30px;
+}
+
+.portfolio_item {
+    position: relative; 
+    max-width: 400px; 
+    min-width: 400px; 
+    height: 300px; 
+    text-align: center; 
+    margin: 2%; 
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.portfolio_item .hidden {
+    color: #0064AC; 
+    text-decoration: none; 
+    position: absolute; 
+    background-color: rgba(255,243,233,0.90); 
+    width: 400px;
+    height: 300px;
+    opacity: 0; 
+    transition: all 0.5s; 
+    text-align: center;
+}
+
+.hidden div {
+    width: 60%; 
+    height: 40%; 
+    margin: auto; 
+    margin-top: 20%;
+}
+
+.portfolio_item:hover .hidden {
+    opacity: 1;
+}
+
+#p1 {
+    background-image: url(../img/Citivox.png); 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: top center;
+}
+
+#p2 {
+    background-image: url(../img/Lautremoitié.png); 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: top center;
+}
+
+#p3 {
+    background-image: url(../img/ThreadMockup.png); 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: center center; 
+    background-color: white;
+}
+
+#p4 {
+    background-image: url(../img/Nighttrees.png); 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: top center;
+}
+
+#p5 {
+    background-image: url(../img/Mockupscarte3.png); 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: top center;
+}
+
+#p6 {
+    background-image: url(../img/Citivox.png); 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: top center;
+}
+
+
+#contact {
+    padding-top: 150px;
+    clear: both; 
+    height: auto; 
+    color: #0064AC; 
+    text-align: center; 
+    width: 70%; 
+    margin-right: auto; 
+    margin-left: auto; 
+}
+
+#contact div {
+    text-align: center;
+}
+
+.popupform {
+    margin: 15% auto; 
+    padding: 20px; 
+    font-family: 'Raleway', sans-serif;
+}
+
+#form h3 img {width: 150px;}
+
+fieldset {border: none;}
+
+input:placeholder-shown {
+    width:82%; 
+    padding: 10px; 
+    margin-top: 20px; 
+    border-style: initial; 
+    border-bottom: 2px solid #0064AC; 
+    padding-left: 0; 
+    font-size:16px; 
+    font-family: raleway;
+    overflow: scroll;
+}
+
+input {
+    width:82%; 
+    padding: 10px; 
+    margin-top: 20px; 
+    border-style: initial; 
+    border-bottom: 2px solid #0064AC; 
+    padding-left: 0; 
+    font-size:16px; 
+    font-family: raleway;
+    overflow: scroll; 
+    color:#0064AC; 
+    background-color: transparent;
+}
+
+#form textarea {
+    width:82%; 
+    height: 150px;
+    padding: 10px; 
+    margin-top: 20px; 
+    border-style: initial; 
+    border-bottom:2px solid #0064AC; 
+    padding-left: 0; 
+    font-size:16px; 
+    font-family: raleway; 
+    color:#0064AC; 
+    background-color: transparent;
+}
+
+::placeholder {color:#0064AC;}
+
+input#submit {
+    background-color: transparent; 
+    text-decoration: none; 
+    color: #0064AC;
+    display: block; 
+    padding: 35px; 
+    width: 150px; 
+    overflow: hidden;
+    font-family: raleway; 
+    font-weight: 700; 
+    text-transform: uppercase; 
+    font-size: 16px; 
+    background-image: url(../img/buttondecor.png); 
+    background-size: 90px; 
+    background-repeat: no-repeat; 
+    background-position: right center; 
+    margin-right: auto; 
+    margin-left: auto; 
+    cursor: pointer;
+    box-shadow: none;
+    border: none; 
+}
+
+
+
+@media all and (max-width:1250px) {
+	#about {width: 55%;}
+	body {
+        background-position: 0% -10%; 
+        background-size: 100%; 
+    }
+	#real {
+        background-position: -200px 1500px; 
+        background-size: 80%;
+    }
+	#competences {
+        background-position: 500px 300px; 
+        background-size: 70%; 
+        margin-top:300px;
+    }
+	#arrow {display: none; }
+	
+}
+
+@media all and (max-width: 1050px) {
+	
+	#accueil {
+        padding-top: 200px; 
+        height: auto;
+    }
+}
+
+@media all and (max-width: 800px) {
+	footer button {
+        font-size: 14px; 
+        width: 20%;
+    }
+	footer button img {
+        width: 65px;
+    }
+}
+
+@media all and (max-width: 600px) {
+	.topnav li {
+        display: none;
+    }
+  	.topnav a.icon {
+        position: fixed; 
+        left: 7%; 
+        top: 20px; 
+        display: block; 
+        color: #0064AC;
+    }
+}
+
+@media all and (max-width: 600px) {
+  .topnav.responsive {
+      position: fixed; 
+      top: 0; 
+      width: 40%; 
+      height: 100%; 
+      padding-right: 15%; 
+      background-color: white; 
+      box-shadow: 1px 2px 10px 2px rgba(0, 100, 172, 0.20); 
+    }
+  .topnav.responsive a.icon {
+      position: fixed; 
+      display: block; 
+      left: 7%;
+      top: 20px;
+    }
+  .topnav.responsive li {
+    float: none;
+    display: block;
+    text-align: left;
+	margin-top: 20px; 
+  }
+	.topnav.responsive ul {display: block; margin: 0; padding-top: 50px; padding-left: 16%; top: 10px;}
+	.topnav {background-color: transparent; box-shadow : none; }
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+	h2 {font-size: 20px;}
+	#accueil {padding-top: 50px; height: auto;}
+	#accueil h1 {font-size: 40px;}
+	#accueil h2 {font-size: 18px;}
+	body {background-position: 0px 450px;}
+	#resume {top: -200px;}
+	#accueil p {font-size: 14px;}
+	#resume {position: relative; top: -200px; display: block;}
+	#resume p {font-size: 14px;}
+	#competences {margin-top:400px;}
+	#real {display: block; position:relative; top: -200px;}
+	#real h2 img {width:265px;}
+	div#popupform {width: 100%; height: 100%; top: 0; left: 0; padding: 30% 0 0 0;}
+	#close {margin-top: -29%;}
+    .portfolio_item {min-width: 300px; max-width: 300px; height: 200px; }
+    .portfolio_item .hidden {width: 300px; height: 200px;}
+    .hidden div {margin-top: 10%;}	
+}
+
+ @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+	#accueil {
+        height: auto; 
+        padding-top:100px;
+     }
+	#about {
+        width: 50%; 
+        margin-top: -25px;
+     }
+	#resume a {
+        padding-left: 30%;
+     }
+	#competences {
+        padding-left: 30%;
+     }
+	#real {
+        background-position: -350px 650px; 
+        background-size: 70%;
+     }
+	
+}
