@@ -24,19 +24,21 @@ window.addEventListener("beforeunload", function () {
 });
 
 
-$('#send-mail').click(function (e) {
-    "use strict";
-    e.preventDefault();
-    var data = {
-        nom: $('#votre-nom').val(),
-        email: $('#votre-email').val(),
-        objet: $('#votre-objet').val(),
-	    message: $('#votre-message').val()
-    };
-    $.ajax({
-	    type: "POST",
-	    url: "C/send-email.php",
-	    data: data,
-        dataType: 'html',
+$(function() {
+    $('#send-mail').click(function (e) {
+        "use strict";
+        e.preventDefault();
+        var data = {
+            nom: $('#votre-nom').val(),
+            email: $('#votre-email').val(),
+            objet: $('#votre-objet').val(),
+            message: $('#votre-message').val()
+        };
+        $.ajax({
+            type: "POST",
+            url: "C/send-email.php",
+            data: data,
+            dataType: 'html',
+        });
     });
 });
