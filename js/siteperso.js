@@ -2,7 +2,6 @@
 /*global $*/
 
 function respnav() {
-    "use strict";
     var x = document.getElementById("navbar");
     if (x.className === "topnav") {
         x.className += " responsive";
@@ -12,19 +11,17 @@ function respnav() {
 }
 
 function imgLoaded(img) {
-    "use strict";
     var galleryitem = img.parentNode;
     galleryitem.className += galleryitem.className ?
             ' loaded' : 'loaded';
 }
 
-window.addEventListener("beforeunload", function () {
-    "use strict";
-    document.body.classList.add("animate-out");
-});
-
-
 $(function() {
+    window.addEventListener("beforeunload", function () {
+        "use strict";
+        document.body.classList.add("animate-out");
+    });
+
     $('#send-mail').click(function (e) {
         "use strict";
         e.preventDefault();
