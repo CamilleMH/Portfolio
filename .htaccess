@@ -5,3 +5,4 @@ RewriteRule Projets/Lautremoitie Projets/Lautremoitie.html
 RewriteRule Projets/Thread Projets/Thread.html
 RewriteRule Projets/ChatGourmand Projets/ChatGourmand.html
 RewriteRule Projets/Realperso Projets/Realperso.html
+RewriteRule CV res/CV.pdf

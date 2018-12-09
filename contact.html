@@ -39,11 +39,11 @@
         </nav>
         <div id="main">
             <div class="background parallaxlayer layer4" >
-                <img src="img/Deco.svg" id="img4">
+                <img class="lazy" data-src="img/Deco.svg" id="img4" src="./img/blank.png">
             </div>
             <div id="contact">
                 <form id="form" action="php/send-email.php" method="post">
-                    <h3>Votre message<br><img src="./img/Vagues.svg"></h3>
+                    <h3>Votre message<br><img class="lazy" data-src="./img/Vagues.svg" src="./img/blank.png"></h3>
                     <fieldset>
                         <input name="nom" placeholder="Nom" id="nom" type="text" autofocus>
                     </fieldset>

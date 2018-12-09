@@ -16,14 +16,37 @@ function imgLoaded(img) {
             ' loaded' : 'loaded';
 }
 
+function lazyload(){
+    var winScrollTop = $(window).scrollTop();
+    var winHeight = $(window).height();
+    $('img.lazy').each(function(){
+        var imgOTop = $(this).offset().top;
+        if( imgOTop < (winHeight + winScrollTop) ) {
+            console.log($(this));
+            $(this)
+                .attr( 'src', $(this).data('src') )
+                .removeClass('lazy')
+                .removeAttr('data-src');
+
+        }
+    });
+}
+
 $(function() {
+    lazyload();
     window.addEventListener("beforeunload", function () {
-        "use strict";
         document.body.classList.add("animate-out");
     });
 
+    $(document).scroll(function() {
+        lazyload();
+    });
+
+    $('*').scroll(function() {
+        lazyload();
+    });
+
     $('#send-mail').click(function (e) {
-        "use strict";
         e.preventDefault();
         var data = {
             nom: $('#votre-nom').val(),
