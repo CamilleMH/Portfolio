@@ -2,16 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="18a8deeb-dcbc-4813-9ea5-1089c4d503ea" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/MockupsThread.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/ThreadLogo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/citivox/bulle-3.png" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/img/BulleCitivox.png" afterPath="$PROJECT_DIR$/img/citivox/bulle-1.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/img/BulleCitivox2.png" afterPath="$PROJECT_DIR$/img/citivox/bulle-2.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.htaccess" afterPath="$PROJECT_DIR$/.htaccess" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Projets/ChatGourmand.html" afterPath="$PROJECT_DIR$/Projets/ChatGourmand.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Projets/Citivox.html" afterPath="$PROJECT_DIR$/Projets/Citivox.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Projets/Lautremoitie.html" afterPath="$PROJECT_DIR$/Projets/Lautremoitie.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Projets/Realperso.html" afterPath="$PROJECT_DIR$/Projets/Realperso.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Projets/Thread.html" afterPath="$PROJECT_DIR$/Projets/Thread.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contact.html" afterPath="$PROJECT_DIR$/contact.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/siteperso.js" afterPath="$PROJECT_DIR$/js/siteperso.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,33 +25,20 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="ChatGourmand.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Projets/ChatGourmand.html">
+      <file leaf-file-name="Realperso.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Projets/Realperso.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="31" column="16" lean-forward="false" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="16" />
+            <state relative-caret-position="-702">
+              <caret line="8" column="52" lean-forward="false" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="52" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Lautremoitie.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Projets/Lautremoitie.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="267">
-              <caret line="26" column="28" lean-forward="false" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="siteperso.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/siteperso.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="564">
-              <caret line="44" column="8" lean-forward="false" selection-start-line="44" selection-start-column="8" selection-end-line="44" selection-end-column="8" />
-              <folding />
-            </state>
+      <file leaf-file-name="IMG_20180810_111953.jpg" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/img/IMG_20180810_111953.jpg">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
@@ -64,12 +53,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>Lautremoitie.html</find>
-      <find>T</find>
-      <find>Threa</find>
-      <find>Thread</find>
-      <find>Thread.</find>
-      <find>Thread.h</find>
       <find>Thread.ht</find>
       <find>Thread.html</find>
       <find>²</find>
@@ -93,7 +76,13 @@
       <find>im</find>
       <find>img</find>
       <find>&lt;</find>
+      <find>BulleCit</find>
+      <find>BulleCiti</find>
+      <find>BulleCitiv</find>
+      <find>BulleCitivo</find>
       <find>&lt;img</find>
+      <find>BulleCitivox</find>
+      <find>BulleCi</find>
     </findStrings>
     <replaceStrings>
       <replace>./</replace>
@@ -113,15 +102,15 @@
         <option value="$PROJECT_DIR$/jquery/jquery.min.js" />
         <option value="$PROJECT_DIR$/font-awesome/font-awesome.min.css" />
         <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/contact.html" />
+        <option value="$PROJECT_DIR$/js/siteperso.js" />
+        <option value="$PROJECT_DIR$/Projets/Lautremoitie.html" />
+        <option value="$PROJECT_DIR$/Projets/Citivox.html" />
+        <option value="$PROJECT_DIR$/Projets/Thread.html" />
+        <option value="$PROJECT_DIR$/Projets/ChatGourmand.html" />
+        <option value="$PROJECT_DIR$/Projets/Realperso.html" />
         <option value="$PROJECT_DIR$/.htaccess" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/contact.html" />
-        <option value="$PROJECT_DIR$/Projets/Citivox.html" />
-        <option value="$PROJECT_DIR$/Projets/Realperso.html" />
-        <option value="$PROJECT_DIR$/Projets/Thread.html" />
-        <option value="$PROJECT_DIR$/js/siteperso.js" />
-        <option value="$PROJECT_DIR$/Projets/ChatGourmand.html" />
-        <option value="$PROJECT_DIR$/Projets/Lautremoitie.html" />
       </list>
     </option>
   </component>
@@ -176,7 +165,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
+              <option name="myItemId" value="Projets" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -190,7 +179,25 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Projets" />
+              <option name="myItemId" value="img" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Portfolio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Portfolio" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="img" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="thread" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -209,6 +216,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\laragon\www\Portfolio\img\citivox" />
       <recent name="C:\laragon\www\Portfolio" />
     </key>
   </component>
@@ -312,12 +320,12 @@
       <workItem from="1542380753047" duration="396000" />
       <workItem from="1542405673979" duration="2943000" />
       <workItem from="1542467455127" duration="223000" />
-      <workItem from="1544290567999" duration="5507000" />
+      <workItem from="1544290567999" duration="8428000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20990000" />
+    <option name="totallyTimeSpent" value="23911000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
@@ -354,55 +362,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Projets/Realperso.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="8" column="40" lean-forward="false" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Projets/Citivox.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" column="46" lean-forward="false" selection-start-line="4" selection-start-column="46" selection-end-line="4" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Projets/Thread.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1404">
-          <caret line="52" column="12" lean-forward="false" selection-start-line="52" selection-start-column="12" selection-end-line="52" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/Mail.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1404">
-          <caret line="52" column="0" lean-forward="false" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/siteperso.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1161">
-          <caret line="43" column="3" lean-forward="false" selection-start-line="43" selection-start-column="3" selection-end-line="43" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jquery/jquery.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="1" column="86841" lean-forward="false" selection-start-line="1" selection-start-column="86841" selection-end-line="1" selection-end-column="86841" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/contact.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="594">
@@ -647,22 +606,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="50" column="16" lean-forward="false" selection-start-line="50" selection-start-column="13" selection-end-line="50" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.htaccess">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="7" column="11" lean-forward="false" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="27">
@@ -679,52 +622,101 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Projets/Citivox.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2271">
-          <caret line="97" column="30" lean-forward="true" selection-start-line="97" selection-start-column="30" selection-end-line="97" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Projets/Realperso.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="22" column="28" lean-forward="false" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Projets/Thread.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="22" column="28" lean-forward="false" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/siteperso.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="564">
-          <caret line="44" column="8" lean-forward="false" selection-start-line="44" selection-start-column="8" selection-end-line="44" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Projets/ChatGourmand.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="31" column="16" lean-forward="false" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Projets/Lautremoitie.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="267">
           <caret line="26" column="28" lean-forward="false" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/siteperso.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1188">
+          <caret line="44" column="8" lean-forward="false" selection-start-line="44" selection-start-column="8" selection-end-line="44" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/Vagues2.svg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/Ecrans-005.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/citivox/bulle-2.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Projets/Thread.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1348">
+          <caret line="52" column="101" lean-forward="false" selection-start-line="52" selection-start-column="101" selection-end-line="52" selection-end-column="101" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Projets/Citivox.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="32" column="55" lean-forward="false" selection-start-line="32" selection-start-column="55" selection-end-line="32" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Projets/ChatGourmand.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-630">
+          <caret line="8" column="31" lean-forward="false" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/citivox/bulle-1.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="43" lean-forward="false" selection-start-line="3" selection-start-column="43" selection-end-line="3" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="123" column="60" lean-forward="false" selection-start-line="123" selection-start-column="60" selection-end-line="123" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/Thread.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Projets/Realperso.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-702">
+          <caret line="8" column="52" lean-forward="false" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/IMG_20180810_111953.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
   </component>

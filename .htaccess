@@ -1,8 +1,8 @@
 RewriteEngine on
 RewriteRule contact contact.html
-RewriteRule Projets/Citivox Projets/Citivox.html
-RewriteRule Projets/Lautremoitie Projets/Lautremoitie.html
-RewriteRule Projets/Thread Projets/Thread.html
-RewriteRule Projets/ChatGourmand Projets/ChatGourmand.html
-RewriteRule Projets/Realperso Projets/Realperso.html
+RewriteRule projects/citivox Projets/Citivox.html
+RewriteRule projects/autre-moitie-du-soleil Projets/Lautremoitie.html
+RewriteRule projects/thread Projets/Thread.html
+RewriteRule projects/le-chat-gourmand Projets/ChatGourmand.html
+RewriteRule projects/realisations Projets/Realperso.html
 RewriteRule CV res/CV.pdf
